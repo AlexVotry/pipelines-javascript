@@ -9,6 +9,8 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+environment: 'devFirst'
+
 steps:
 - task: NodeTool@0
   inputs:
